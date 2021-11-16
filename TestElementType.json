@@ -3,7 +3,7 @@
     "$id": "",
     "description": "Describes the surrouding buildings imported from WFS",
     "title": "Buildings",
-    "allOf":[{"$ref": "https://hypar.io/Schemas/GeometricElement.json"}],
+  
     "required": ["Representation","Material"],
     "properties": 
     {
