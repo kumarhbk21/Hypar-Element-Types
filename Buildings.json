@@ -1,1 +1,47 @@
+{
+    "x-namespace":"Elements",
+    "$id": "https://github.com/kumarhbk21/Hypar-Element-Types/blob/main/TestElementType.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Describes the surrouding buildings imported from WFS",
+    "title": "Buildings",
+    "required": ["Representation", "Material"],
+    "allOf": [{"$ref": "https://hypar.io/Schemas/GeometricElement.json"}],
+    "type":"object",
+    "properties": 
+    {
+        "Representation" :
+        {
+            "description": "The elements representation",
+            "$ref": "https://hypar.io/Schemas/Geometry/Representation.json"
+        
+        },
+        "Material":
+        {
+            "description": "The elements material",
+            "$ref": "https://hypar.io/Schemas/Material.json"
+            
+        },
+        "Height":
+        {
+            "description": "Height of the building",
+            "type":"number"
+        },
+        "Year of Construction":
+        {
+            "description": "The year of construction of the building",
+            "type": "integer"
+        },
+        "Roof type":
+        {
+            "description": "The roof type of the building",
+            "type": "string"
+        }
+
+        
+    },
+    "additionalProperties": false
+
+    
+}
+
 
