@@ -5,6 +5,7 @@
     "title": "Buildings",
     "required": ["Representation", "Material"],
     "allOf": [{"$ref": "https://hypar.io/Schemas/GeometricElement.json"}],
+    "type":"object",
     "properties": 
     {
         "Representation" :
