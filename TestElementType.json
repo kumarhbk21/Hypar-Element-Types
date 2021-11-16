@@ -3,6 +3,7 @@
     "$id": "https://github.com/kumarhbk21/Hypar-Element-Types/blob/main/TestElementType.json",
     "description": "Describes the surrouding buildings imported from WFS",
     "title": "Buildings",
+    
   
     
     "properties": 
@@ -32,7 +33,7 @@
         "Roof type":
         {
             "description": "The roof type of the building",
-            "type": "integer"
+            "type": "string"
         }
 
         
