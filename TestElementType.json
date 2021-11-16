@@ -4,7 +4,7 @@
     "description": "Describes the surrouding buildings imported from WFS",
     "title": "Buildings",
   
-    "required": ["Representation","Material"],
+    
     "properties": 
     {
         "Representation" :
