@@ -1,11 +1,8 @@
 {
     "$id": "https://github.com/kumarhbk21/Hypar-Element-Types/blob/main/TestElementType.json",
-    "$schema": "http://json-schema.org/draft-07/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "description": "Describes the surrouding buildings imported from WFS",
     "title": "Buildings",
-    
-  
-    
     "properties": 
     {
         "Representation" :
