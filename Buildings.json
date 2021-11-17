@@ -26,12 +26,12 @@
             "description": "Height of the building",
             "type":"number"
         },
-        "Year of Construction":
+        "YearOfConstruction":
         {
             "description": "The year of construction of the building",
             "type": "integer"
         },
-        "Roof type":
+        "RoofType":
         {
             "description": "The roof type of the building",
             "type": "string"
