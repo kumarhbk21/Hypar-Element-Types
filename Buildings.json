@@ -9,29 +9,29 @@
     "type":"object",
     "properties": 
     {
-        "Representation" :
+        "BuildingRepresentation" :
         {
             "description": "The elements representation",
             "$ref": "https://hypar.io/Schemas/Geometry/Representation.json"
         
         },
-        "Material":
+        "BuildingMaterial":
         {
             "description": "The elements material",
             "$ref": "https://hypar.io/Schemas/Material.json"
             
         },
-        "Height":
+        "BuildingHeight":
         {
             "description": "Height of the building",
             "type":"number"
         },
-        "YearOfConstruction":
+        "BuildingYearOfConstruction":
         {
             "description": "The year of construction of the building",
             "type": "integer"
         },
-        "RoofType":
+        "BuildingRoofType":
         {
             "description": "The roof type of the building",
             "type": "string"
