@@ -1,4 +1,5 @@
 {
+    "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "Add url",
     "description": "Describes the surrounding buildings imported from WFS.",
