@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Add url",
+    "description": "Describes the surrounding buildings imported from WFS.",
+    "title": "Building",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["Representation","Material"],
+    "properties": 
+    {
+        "BuildingRepresentation" :
+        {
+            "description": "Representation of the Building.",
+            "$ref": "https://hypar.io/Schemas/Geometry/Representation.json"
+        
+        },
+        "BuildingMaterial":
+        {
+            "description": "Material of the Building.",
+            "$ref": "https://hypar.io/Schemas/Material.json"
+            
+        },
+        "BuildingProfile":
+        {
+            "description": "Profile of the Building.",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        },
+        "BuildingHeight":
+        {
+            "description": "Height of the Building.",
+            "type":"number",
+            "$hyparUnitType": "length"
+        },
+        "BuildingYearofConstruction":
+        {
+            "description": "The year of construction of the building.",
+            "type": "integer"
+        },
+        "BuildingRoofType":
+        {
+            "description": "The Roof Type of the Building.",
+            "type": "integer"
+        }        
+    },
+    "additionalProperties": true
+}
