@@ -1,7 +1,7 @@
 {
     "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "Add url",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Street.json",
     "description": "Describes the Streets in the Surroundings.",
     "title": "Street",
     "type": "object",
