@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Site.json",
     "description": "Describes the site",
-    "title": "Flurstück",
+    "title": "GB-Site",
     "type": "object",
 
 
@@ -13,18 +13,18 @@
             "$ref": "https://hypar.io/Schemas/GeometricElement.json"
         }
     ],
-    "required": ["FlurstückProfile"],
+    "required": ["SiteProfile"],
     "properties": 
     {
-        "FlurstückProfile" :
+        "SiteProfile" :
         {
-            "description": "Boundary profile of the Flurstück.",
+            "description": "Boundary profile of the Site.",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
         
         },
-        "FlurstückArea":
+        "SiteArea":
         {
-            "description": "Area of the Flurstück.",
+            "description": "Area of the Site.",
             "$ref": "number",
             "minimum": 0            
         }
