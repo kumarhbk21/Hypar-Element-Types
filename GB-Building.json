@@ -37,11 +37,7 @@
             "description": "The Roof Type of the Building.",
             "type": "string"
         },
-        "TestPropertry":
-        {
-            "description": "To Test",
-            "type": "string"
-        }
+       
     },
     "additionalProperties": true
 }
