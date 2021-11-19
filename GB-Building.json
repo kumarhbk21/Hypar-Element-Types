@@ -16,11 +16,11 @@
     "required": ["Representation","Material"],
     "properties": 
     {
-      "BuildingProfile": {
-      "description": "The id of the profile to extrude.",
-      "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
-         },
-        
+        "BuildingProfile": 
+        {
+            "description": "The id of the profile to extrude.",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        },
         "BuildingHeight":
         {
             "description": "Height of the Building.",
@@ -36,8 +36,7 @@
         {
             "description": "The Roof Type of the Building.",
             "type": "string"
-        },
-       
+        }
     },
     "additionalProperties": true
 }
