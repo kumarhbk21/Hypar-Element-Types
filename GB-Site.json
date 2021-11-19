@@ -2,7 +2,7 @@
     "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Flurst%C3%BCck.json",
-    "description": "Describes the Flurstück.",
+    "description": "Describes the site",
     "title": "Flurstück",
     "type": "object",
 
