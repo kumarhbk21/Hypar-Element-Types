@@ -1,0 +1,38 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "Add url",
+    "description": "Describes the Streets in the Surroundings.",
+    "title": "Street",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["StreetCenterLine","StreetWidth"],
+    "properties": 
+    {
+        "StreetName":
+        {
+            "description": "Name of the Street.",
+            "type":"string"
+        },
+        "StreetCenterLine" :
+        {
+            "description": "Center Line of the Street.",
+            "$ref": "https://prod-api.hypar.io/schemas/Polyline"
+        
+        },
+        "StreetWidth":
+        {
+            "description": "Width of the Street.",
+            "type": "number",
+            "$hyparUnitType": "length"            
+        }        
+    },
+    "additionalProperties": true
+}
