@@ -16,13 +16,13 @@
     "required": ["SiteProfile"],
     "properties": 
     {
-        "FlurstückProfile" :
+        "SiteProfile" :
         {
             "description": "Boundary profile of the Site.",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
         
         },
-        "FlurstückArea":
+        "SiteArea":
         {
             "description": "Area of the Site.",
             "$ref": "number",
