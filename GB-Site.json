@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Site.json",
     "description": "Describes a Site.",
-    "title": "Site",
+    "title": "GBSite",
     "type": "object",
 
 
