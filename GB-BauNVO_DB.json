@@ -6,7 +6,6 @@
 
 
     "allOf":[{"$ref": "https://hypar.io/Schemas/GeometricElement.json"}],
-    "required": ["Property1","Property2"],
     "properties": 
     {
        
