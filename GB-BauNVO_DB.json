@@ -6,7 +6,7 @@
     "title": "GBDataBank",
 
 
-    "allOf":[{"$ref": "https://hypar.io/Schemas/GeometricElement.json"}],
+  
     "properties": 
     {
        
