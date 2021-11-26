@@ -4,7 +4,7 @@
     "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-BauNVO_DB.json",
     "description": "An element type to output data from data bank",
     "title": "GBDataBank",
-
+    "type": ["object"],
 
   
     "properties": 
