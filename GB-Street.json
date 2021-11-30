@@ -24,7 +24,7 @@
         "StreetCenterLine" :
         {
             "description": "Center Line of the Street.",
-            "$ref": "https://prod-api.hypar.io/schemas/Polyline"
+            "$ref": "https://prod-api.hypar.io/schemas/ModelCurve"
         
         },
         "StreetWidth":
