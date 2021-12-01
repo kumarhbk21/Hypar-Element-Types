@@ -34,12 +34,7 @@
            
         
         },
-        "StreetMcurveCenterLine":
-        {   
-            "description": "Center line to visualize",
-            "$ref": "https://prod-api.hypar.io/schemas/ModelCurve.json"
-        },
-
+       
         "StreetWidth":
         {
             "description": "Width of the Street.",
