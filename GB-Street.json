@@ -24,10 +24,22 @@
         "StreetCenterLine" :
         {
             "type": "array",
-            "description": "Center Line of the Street.",
-            "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
+            
+            "items": 
+            {
+                "description": "Center Line of the Street.",
+                "$ref": "https://prod-api.hypar.io/schemas/Curve.json"
+
+            }
+           
         
         },
+        "StreetMcurveCenterLine":
+        {   
+            "description": "Center line to visualize",
+            "$ref": "https://prod-api.hypar.io/schemas/ModelCurve.json"
+        },
+
         "StreetWidth":
         {
             "description": "Width of the Street.",
