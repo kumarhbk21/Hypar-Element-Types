@@ -27,7 +27,7 @@
             
             "items": 
             {
-                "description": "Center Line of the Street.",
+                "description": "Center line of the Street.",
                 "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
 
             }
