@@ -25,7 +25,7 @@
         {
             "type": "array",
             "description": "Center Line of the Street.",
-            "$ref": "https://prod-api.hypar.io/schemas/Curve.json"
+            "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
         
         },
         "StreetMcurveCenterLine":
