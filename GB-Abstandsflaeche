@@ -1,0 +1,26 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "ADD URL HERE",
+    "description": "Describes the Abstandsflaeche around a Building.",
+    "title": "Abstandsflaeche",
+    "type": ["object", "null"],
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["Representation"],
+    "properties": 
+    {
+        "AbstandsflaecheProfile": 
+        {
+            "description": "The Profile of the Abstandsflaeche.",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        }
+    },
+    "additionalProperties": true
+}
