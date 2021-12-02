@@ -29,8 +29,13 @@
         },
         "Gemarkung" :
         {
-            "description": "The Area of the Site",
-            "type": "number"        
+            "type": "array",
+            "items": 
+            {
+                 "description": "The Gemarkung of the Site",
+                  "type": "string"       
+            }
+            
         },
         "Flurstücksnummer" :
         {
