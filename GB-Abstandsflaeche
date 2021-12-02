@@ -1,7 +1,7 @@
 {
     "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "ADD URL HERE",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Abstandsflaeche",
     "description": "Describes the Abstandsflaeche around a Building.",
     "title": "Abstandsflaeche",
     "type": ["object", "null"],
