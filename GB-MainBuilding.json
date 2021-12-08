@@ -1,0 +1,55 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Building.json",
+    "description": "Describes the surrounding buildings imported from WFS.",
+    "title": "GBBuilding",
+    "type": ["object", "null"],
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["Representation","Material"],
+    "properties": 
+    {
+        "BuildingProfile": 
+        {
+            "description": "The id of the profile to extrude.",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        },
+        "BuildingHeight":
+        {
+            "description": "Height of the Building.",
+            "type":"number",
+            "$hyparUnitType": "length"
+        },
+        "BuildingYearofConstruction":
+        {
+            "description": "The year of construction of the building.",
+            "type": "integer"
+        },
+        "BuildingRoofType":
+        {
+            "description": "The Roof Type of the Building.",
+            "type": "string"
+        },
+      "Building Face Profile":
+        {
+          "type": "array",
+            
+            "items": 
+            {
+                "description": "Profile of each face.",
+                "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+
+            }
+          
+          
+        }
+    },
+    "additionalProperties": true
+}
