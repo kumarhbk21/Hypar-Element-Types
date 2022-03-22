@@ -13,40 +13,27 @@
             "$ref": "https://hypar.io/Schemas/GeometricElement.json"
         }
     ],
-    "required": ["siteProfile"],
+    "required": ["Representation","Material"],
     "properties": 
     {
-        "Grundstück Profile" :
+        "Building Profile" :
         {
             "description": "The Profile of the Site",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
         
         },
-        "Grundstück Fläche" :
+        "Building area" :
         {
-            "description": "The Area of the Site",
+            "description": "The Area of the Building base",
             "type": "number"        
         },
-        "Gemarkung" :
+      
+        "Building Height" :
         {
-            "type": "array",
-            "items": 
-            {
-                 "description": "The Gemarkung of the Site",
-                  "type": "string"       
-            }
-            
-        },
-        "Flurstücksnummer" :
-        {
-            "description": "The Area of the Site",
-            "type": "number"        
-        },
-        "Flurnummer" :
-        {
-            "description": "The Area of the Site",
+            "description": "Height of the building",
             "type": "number"        
         }
+       
     },
     "additionalProperties": true
 }
