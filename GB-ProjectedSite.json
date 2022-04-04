@@ -2,7 +2,7 @@
 {
     "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-Site.json",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-ProjectedSite.json",
     "description": "Describes the Site projected on the Topography",
     "title": "GBProjectedSite",
     "type": "object",
