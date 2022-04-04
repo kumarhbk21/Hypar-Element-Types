@@ -19,15 +19,9 @@
     {
         "Site Boundary" :
         {
-            "type": "array",
-            
-            "items": 
-            {
-                "description": "Boundary lines of site",
-                "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
+            "description": "Boundary lines of site",
+            "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
 
-            }
-         
            
         },
         "Grundstück Fläche" :
