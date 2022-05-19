@@ -13,10 +13,10 @@
             "$ref": "https://hypar.io/Schemas/GeometricElement.json"
         }
     ],
-    "required": ["streetProfile"],
+    "required": ["siteProfile"],
     "properties": 
     {
-        "Street Boundary" :
+        "Site Boundary" :
         {
             "description": "Boundary lines of street",
             "$ref": "https://prod-api.hypar.io/schemas/Curve.json"
