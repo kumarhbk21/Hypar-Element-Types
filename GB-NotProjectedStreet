@@ -19,7 +19,7 @@
         "Street Boundary" :
         {
             "description": "Boundary lines of street",
-            "$ref": "https://prod-api.hypar.io/schemas/Curve.json"
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
 
            
         }
