@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-BoundingBox.json",
     "description": "Describes the outer bounding box",
-    "title": "GBProjectedStreet",
+    "title": "GBBounding box",
     "type": "object",
 
 
