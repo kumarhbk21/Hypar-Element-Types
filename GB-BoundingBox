@@ -1,0 +1,28 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-BoundingBox.json",
+    "description": "Describes the outer bounding box",
+    "title": "GBProjectedStreet",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["streetProfile"],
+    "properties": 
+    {
+        "Bounding box Boundary" :
+        {
+            "description": "Boundary lines of bounding box",
+            "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
+
+           
+        }
+    },
+    "additionalProperties": true
+}
