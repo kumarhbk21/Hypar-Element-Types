@@ -27,6 +27,11 @@
             "description": "The Area of the Site",
             "type": "number"        
         },
+        "Contains Building" :
+        {
+            "description": "If the site contains buildings",
+            "type": "bool"        
+        },
         "Gemarkung" :
         {
             "type": "array",
