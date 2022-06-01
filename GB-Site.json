@@ -30,7 +30,7 @@
         "Contains Building" :
         {
             "description": "If the site contains buildings",
-            "type": "bool"        
+            "type": "boolean"        
         },
         "Gemarkung" :
         {
