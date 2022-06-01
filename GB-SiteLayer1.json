@@ -1,0 +1,52 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GB-SiteLayer1.json",
+    "description": "Describes a Site.",
+    "title": "GBSite",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["siteProfile"],
+    "properties": 
+    {
+        "Grundstück Profile" :
+        {
+            "description": "The Profile of the Site",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        
+        },
+        "Grundstück Fläche" :
+        {
+            "description": "The Area of the Site",
+            "type": "number"        
+        },
+        "Gemarkung" :
+        {
+            "type": "array",
+            "items": 
+            {
+                 "description": "The Gemarkung of the Site",
+                  "type": "string"       
+            }
+            
+        },
+        "Flurstücksnummer" :
+        {
+            "description": "The Area of the Site",
+            "type": "number"        
+        },
+        "Flurnummer" :
+        {
+            "description": "The Area of the Site",
+            "type": "number"        
+        }
+    },
+    "additionalProperties": true
+}
