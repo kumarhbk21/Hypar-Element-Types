@@ -5,8 +5,6 @@
     "description": "Describes the Streets in the Surroundings.",
     "title": "GBStreet",
     "type": "object",
-
-
     "allOf":
     [
         {
@@ -23,16 +21,13 @@
         },
         "StreetCenterLine" :
         {
-            "type": "array",
-            
+            "type": "array", 
             "items": 
             {
                 "description": "Center line of the Street.",
                 "$ref": "https://prod-api.hypar.io/schemas/Polyline.json"
 
-            }
-         
-           
+            }           
         },
         "StreetProfile" :
          {
