@@ -45,7 +45,7 @@
         "Flurnummer" :
         {
             "description": "The Area of the Site",
-            "type": "number"        
+            "type": "string"        
         },
          "Lage" :
         {
