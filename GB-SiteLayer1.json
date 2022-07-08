@@ -46,6 +46,11 @@
         {
             "description": "The Area of the Site",
             "type": "number"        
+        },
+         "Lage" :
+        {
+            "description": "The location of the Site",
+            "type": "string"        
         }
     },
     "additionalProperties": true
