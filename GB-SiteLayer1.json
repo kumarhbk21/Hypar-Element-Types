@@ -52,6 +52,11 @@
             "description": "The location of the Site",
             "type": "string"        
         }
+          "State" :
+        {
+            "description": "The location of the Site",
+            "type": "string"        
+        }
     },
     "additionalProperties": true
 }
