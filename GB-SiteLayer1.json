@@ -51,7 +51,7 @@
         {
             "description": "The location of the Site",
             "type": "string"        
-        }
+        },
           "Bundesland" :
         {
             "description": "The location of the Site",
