@@ -31,7 +31,7 @@
         "Building Height" :
         {
             "description": "Height of the building",
-            "type": "number"        
+            "type": "string"        
         }
        
     },
