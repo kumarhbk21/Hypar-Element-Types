@@ -24,13 +24,13 @@
         "BuildingHeight":
         {
             "description": "Height of the Building.",
-            "type":"number",
+            "type":"string",
             "$hyparUnitType": "length"
         },
         "BuildingYearofConstruction":
         {
             "description": "The year of construction of the building.",
-            "type": "integer"
+            "type": "string"
         },
         "BuildingRoofType":
         {
