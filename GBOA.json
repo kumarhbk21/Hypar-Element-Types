@@ -9,7 +9,7 @@
 "Geschosshoehe(mm)",
 "Erhoehtes Erdgeschoss(mm)"
 ],
-"Floor Type":["EG","OG1","OG2"
+"FloorType":["EG","OG1","OG2"
 	
 ],	
 "properties": 
