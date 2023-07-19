@@ -1,29 +1,7 @@
 {
-"$id": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/GBOA.json",
-"$schema": "http://json-schema.org/draft-07/schema#",
-"title": "GBOA",
-"x-namespace": "Elements.Geometry",
-"type": "object",
-"description": "Height of the floor",
-"required": [
-"Geschosshoehe(mm)",
-"ErhoehtesErdgeschoss"
-],
-"FloorType":["EG","OG1","OG2"],	
-"properties": 
-{
-	"Geschosshoehe": 
-	{
-	"description": "The floor height for Typical floors",
-	"type": "string",
-	"heights":["3500","3675","3850"]
-	},
-	"ErhoehtesErdgeschoss": 
-	{
-	"description": "The floor height for elevated first floor",
-	"type": "string",
-	"heights":["4025","4200","4375","4500","4725","4900","5075"]
-	}
-},
-"additionalProperties": false
+  "Options": [
+    "Option 1",
+    "Option 2",
+    "Option 3"
+  ]
 }
