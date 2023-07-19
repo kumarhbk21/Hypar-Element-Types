@@ -1,7 +1,16 @@
 {
-  "Options": [
-    "Option 1",
-    "Option 2",
-    "Option 3"
+  "people": [
+    {
+      "name": "Matt",
+      "country": "NZ"
+    },
+    {
+      "name": "Pete",
+      "country": "AU"
+    },
+    {
+      "name": "Mike",
+      "country": "NZ"
+    }
   ]
 }
