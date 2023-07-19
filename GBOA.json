@@ -7,20 +7,18 @@
 "description": "Height of the floor",
 "required": [
 "Geschosshoehe(mm)",
-"Erhoehtes Erdgeschoss(mm)"
+"ErhoehtesErdgeschoss"
 ],
-"FloorType":["EG","OG1","OG2"
-	
-],	
+"FloorType":["EG","OG1","OG2"],	
 "properties": 
 {
-	"Geschosshoehe(mm)": 
+	"Geschosshoehe": 
 	{
 	"description": "The floor height for Typical floors",
 	"type": "string",
 	"heights":["3500","3675","3850"]
 	},
-	"Erhoehtes Erdgeschoss(mm)": 
+	"ErhoehtesErdgeschoss": 
 	{
 	"description": "The floor height for elevated first floor",
 	"type": "string",
