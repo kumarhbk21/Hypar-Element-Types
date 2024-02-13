@@ -1,0 +1,26 @@
+{
+    "x-namespace": "Elements",
+    "required": [],
+    "properties": {
+        "Level": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "uuid",
+            "$hyparRelationship": { 
+                "type": "child-of",
+                "discriminators": [
+                    "Elements.LevelVolume"
+                ]
+            }
+        }
+    },
+    "additionalProperties": true,
+    "description": "A toy",
+    "allOf": [
+        {
+            "$ref": "https://schemas.hypar.io/GeometricElement.json"
+        }
+    ]
+}
