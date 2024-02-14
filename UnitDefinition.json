@@ -19,12 +19,6 @@
                     "Elements.LevelVolume"
                 ]
             }
-        },
-        "Boundary" :
-        {
-            "description": "The Profile of Unit Definition",
-            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
-        
         }
     },
     "additionalProperties": true,
