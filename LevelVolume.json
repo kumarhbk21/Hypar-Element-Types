@@ -42,10 +42,10 @@
 "type": "parent-of",
 "discriminator": "Elements.UnitDefinition"
 },
-"type": [
-"string",
-"null"
-]
+"type": "array",
+"items": {
+"$ref": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/UnitDefinition.json"
+}
 },
 "Mass": {
 "$hyparRelationship": {
