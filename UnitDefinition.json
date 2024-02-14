@@ -7,20 +7,7 @@
     "type": "object",
     "required": [],
     "properties": {
-        "LevelVolume": {
-            "type": [
-                "string",
-                "null"
-            ],
-            "format": "uuid",
-            "$hyparRelationship": { 
-                "type": "child-of",
-                "discriminators": [
-                    "Elements.LevelVolume",
-                    "Elements.Level"
-                ]
-            }
-        }
+        
     },
     "additionalProperties": true,
     "description": "A toy",
