@@ -16,7 +16,8 @@
             "$hyparRelationship": { 
                 "type": "child-of",
                 "discriminators": [
-                    "Elements.LevelVolume"
+                    "Elements.LevelVolume",
+                    "Elements.Level"
                 ]
             }
         }
