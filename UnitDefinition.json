@@ -7,7 +7,7 @@
     "type": "object",
     "required": [],
     "properties": {
-        "Level": {
+        "LevelVolume": {
             "type": [
                 "string",
                 "null"
@@ -19,6 +19,12 @@
                     "Elements.LevelVolume"
                 ]
             }
+        },
+        "Boundary" :
+        {
+            "description": "The Profile of Unit Definition",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        
         }
     },
     "additionalProperties": true,
