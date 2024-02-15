@@ -8,6 +8,9 @@
     "type": ["object","null"],
     "required": [],
     "properties": {
+         "Transform": {
+              "$ref": "https://prod-api.hypar.io/schemas/Transform"
+            }
         
     },
     "additionalProperties": false,
