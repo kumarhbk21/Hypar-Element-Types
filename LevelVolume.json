@@ -44,7 +44,7 @@
 },
 "type": "array",
 "items": {
-"$ref": "https://raw.githubusercontent.com/kumarhbk21/Hypar-Element-Types/main/UnitDefinition.json"
+"$ref": "https://schemas.hypar.io/GeometricElement.json"
 }
 },
 "Mass": {
