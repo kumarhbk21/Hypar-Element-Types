@@ -10,7 +10,7 @@
     "properties": {
         
     },
-    "additionalProperties": true,
+    "additionalProperties": false,
     "description": "A toy",
     "allOf": [
         {
