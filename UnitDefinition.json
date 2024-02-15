@@ -5,7 +5,7 @@
     "discriminator": "discriminator",
     "description": "NAN",
     "title": "UnitDefinition",
-    "type": "object",
+    "type": ["object","null"],
     "required": [],
     "properties": {
         
