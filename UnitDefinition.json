@@ -26,6 +26,16 @@
             "description": "Depth of the Unit",
             "type": "number"  
         },
+        "PlacedUnits": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+        "LevelName": 
+        {
+            "description": "Depth of the Unit",
+            "type": "string"  
+        },
          "Count": 
         {
             "description": "Depth of the Unit",
@@ -41,7 +51,7 @@
             "description": "Depth of the Unit",
             "type": "number"  
         },
-         "CategoryFrequeny": 
+         "CategoryFrequency": 
         {
             "description": "Depth of the Unit",
             "type": "number"  
