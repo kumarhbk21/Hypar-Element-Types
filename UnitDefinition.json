@@ -29,7 +29,7 @@
         "PlacedUnits": 
         {
             "description": "Depth of the Unit",
-            "type": "number"  
+            "type": "integer"  
         },
         "LevelName": 
         {
@@ -39,7 +39,7 @@
          "Count": 
         {
             "description": "Depth of the Unit",
-            "type": "number"  
+            "type": "integer" 
         },
          "Category": 
         {
