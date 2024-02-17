@@ -7,8 +7,62 @@
     "title": "UnitDefinition",
     "type": ["object","null"],
     "required": [],
-    "additionalProperties": false,
-    "description": "A toy",
+    "additionalProperties": true,
+    "description": "",
+     "properties": 
+    {
+        "Area": 
+        {
+            "description": "Area of the Unit",
+            "type": "number"  
+        },
+        "Depth": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+         "Width": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+         "Count": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+         "Category": 
+        {
+            "description": "Depth of the Unit",
+            "type": "string"  
+        },
+         "Frequency": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+         "CategoryFrequeny": 
+        {
+            "description": "Depth of the Unit",
+            "type": "number"  
+        },
+         "Color": 
+        {
+            "description": "Depth of the Unit",
+            "$ref": "https://schemas.hypar.io/Color.json"  
+        },
+         "Boundary": 
+        {
+            "description": "Depth of the Unit",
+            "$ref":  "https://schemas.hypar.io/Profile.json"  
+        },
+         "Perimeter": 
+        {
+            "description": "Depth of the Unit",
+            "$ref": "https://schemas.hypar.io/Polygon.json"  
+        }
+        
+    },
     "allOf": [
         {
             "$ref": "https://schemas.hypar.io/GeometricElement.json"
