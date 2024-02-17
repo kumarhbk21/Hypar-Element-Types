@@ -70,7 +70,22 @@
         {
             "description": "Depth of the Unit",
             "$ref": "https://schemas.hypar.io/Polygon.json"  
-        }
+        },
+        "Level": {
+        "$hyparRelationship": {
+            "type": "child-of",
+            "discriminator": "Elements.LevelVolume",
+            "discriminators": [
+                                "Elements.Level",
+                                "Elements.LevelVolume"
+                                ]
+            },
+            "type": [
+                    "string",
+                    "null"
+                    ],
+            "format": "uuid"
+            }
         
     },
     "allOf": [
